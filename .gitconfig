@@ -1,0 +1,21 @@
+[user]
+	email = robertgcofield@gmail.com
+	name = Robert Cofield
+
+[core]
+    editor = subl
+    excludesfile = <%= ENV['HOME'] %>/.gitignore
+
+[alias]
+    tags = tag -l
+    branches = branch -a
+    remotes = remote -v
+
+[color]
+    branch = auto
+    diff = auto
+    interactive = auto
+    status = auto
+
+[github]
+    user = ozymandium
