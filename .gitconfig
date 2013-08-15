@@ -1,6 +1,6 @@
 [user]
-	email = robertgcofield@gmail.com
-	name = Robert Cofield
+	  email = robertgcofield@gmail.com
+	  name = Robert Cofield
 
 [core]
     editor = subl
@@ -16,9 +16,13 @@
     diff = auto
     interactive = auto
     status = auto
+    ui = auto
 
 [github]
     user = ozymandium
 
 [credential]
     helper = cache --timeout=28800
+
+[push]
+    default = simple
