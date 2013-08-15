@@ -4,12 +4,12 @@
 
 [core]
     editor = subl
-    excludesfile = <%= ENV['HOME'] %>/.gitignore
 
 [alias]
     tags = tag -l
     branches = branch -a
     remotes = remote -v
+    cm = commit -m
 
 [color]
     branch = auto
@@ -19,3 +19,6 @@
 
 [github]
     user = ozymandium
+
+[credential]
+    helper = cache --timeout=28800
