@@ -19,10 +19,15 @@ intro_blurb = """Installing dotfiles.
 
 orig_tag = '.orig'
 install_locs = [  # ( where in here ,  where in home )
+
   ('.bash_aliases',   '.bash_aliases'),
   ('.bash_profile',   '.bash_profile'),
   ('.bashrc',         '.bashrc'),
+
+  ('.gtktermrc',      '.gtktermrc'),
+
   ('.gitconfig',      '.gitconfig'),
+
   ('sublime2/Preferences (User).sublime-settings',    '.config/sublime-text-2/Packages/User/Preferences.sublime-settings'),
   ('sublime2/Preferences (Default).sublime-settings', '.config/sublime-text-2/Packages/Default/Preferences.sublime-settings'),
   ('sublime2/Preferences (Linux).sublime-settings',   '.config/sublime-text-2/Packages/Default/Preferences (Linux).sublime-settings'),
@@ -31,6 +36,7 @@ install_locs = [  # ( where in here ,  where in home )
   ('sublime2/Shell-Unix-Generic.sublime-settings',    '.config/sublime-text-2/Packages/User/Shell-Unix-Generic.sublime-settings'),
   ('sublime2/XML.sublime-settings',                   '.config/sublime-text-2/Packages/User/XML.sublime-settings'),
   ('sublime2/YAML.sublime-settings',                  '.config/sublime-text-2/Packages/User/YAML.sublime-settings'),
+
 ]
 
 dotf = os.path.dirname(__file__)
